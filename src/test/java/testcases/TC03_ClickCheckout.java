@@ -14,6 +14,4 @@ public class TC03_ClickCheckout extends TestBase{
         captureScreenshot(driver,"Checkout page");
     }
 
-
-
 }

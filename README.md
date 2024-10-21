@@ -52,7 +52,7 @@ The test environment for automation testing is as follows:
 
 ### Local testing execution example
 
-![Local testing execution example](Project 01 SwagLabs 21102024.mp4)
+![Local testing execution example](bandicam 2024-10-21 18-20-03-331.gif)
 
 
 ## Installation
