@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="E2E">
+        <classes>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="testcases.TC02_AddToCart">
+                <methods>
+                    <include name="clickAddToCartBtn01"/>
+                    <include name="clickAddToCartBtn02"/>
+                    <include name="clickAddToCartBtn03"/>
+                    <include name="clickAddToCartBtn04"/>
+                    <include name="clickAddToCartBtn05"/>
+                    <include name="clickAddToCartBtn06"/>
+                    <include name="clickonCartIcon"/>
+                </methods>
+            </class>
+            <class name="testcases.TC03_ClickCheckout">
+                <methods>
+                    <include name="clickonCheckoutBtn"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_CheckoutInfo">
+                <methods>
+                    <include name="entercheckoutdata"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_ClickFinish">
+                <methods>
+                    <include name="clickFinishpurchaceBtn"/>
+                </methods>
+            </class>
+            <class name="testcases.TC06_PurchaceConfirmation">
+                <methods>
+                    <include name="clickonLogoutUserMenu"/>
+                    <include name="clickOnLogoutBtn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
