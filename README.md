@@ -50,6 +50,11 @@ The test environment for automation testing is as follows:
 - Browser: Google Chrome Version 129.0.6668.101
 - Programming language: Java
 
+### Local testing execution example
+
+![Local testing execution example](Project 01 SwagLabs 21102024.mp4)
+
+
 ## Installation
 
 To set up the SwagLabs application locally, follow these steps:
@@ -67,11 +72,6 @@ To set up the SwagLabs application locally, follow these steps:
 
 ## Usage
 * User Guide: Refer to the User Guide for detailed information on how to use the SwagLabs application.
-
-### Local testing execution example
-
-![Local testing execution example](SwagLabs.gif)
-
 
 ## Contributing
 * We welcome contributions from the community. To contribute to SwagLabs, follow these steps:
